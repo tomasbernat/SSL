@@ -15,6 +15,7 @@ int main(){
             while(buffer[i] != '\0')
             {
                 printf("%c", buffer[i]);
+                buffer[i] = '\0';
                 i++;
             }
 
@@ -26,6 +27,7 @@ int main(){
             while(buffer[i] != '\0')
             {
                 printf("%c", buffer[i]);
+                buffer[i] = '\0';
                 i++;
             }
 
