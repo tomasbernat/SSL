@@ -28,5 +28,6 @@ int GET_TOKEN(char buffer[]){
         }
     }
 
+    if (j != 0) return CADENA;
     return FDT;
 }
